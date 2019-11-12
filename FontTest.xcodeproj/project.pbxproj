@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA0339B237B2353007E2973 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA0339A237B2353007E2973 /* AppDelegate.m */; };
+		ECA0339E237B2353007E2973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA0339D237B2353007E2973 /* ViewController.m */; };
+		ECA033A0237B2357007E2973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA0339F237B2357007E2973 /* Assets.xcassets */; };
+		ECA033A3237B2357007E2973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA033A1237B2357007E2973 /* Main.storyboard */; };
+		ECA033A6237B2357007E2973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA033A5237B2357007E2973 /* main.m */; };
+		ECA033BF237B2EA4007E2973 /* HyundaiSansHeadKRRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECA033BC237B2EA4007E2973 /* HyundaiSansHeadKRRegular.ttf */; };
+		ECA033C0237B2EA4007E2973 /* KIA_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECA033BD237B2EA4007E2973 /* KIA_Medium.ttf */; };
+		ECA033C1237B2EA4007E2973 /* GenesisSansTextGlobal-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECA033BE237B2EA4007E2973 /* GenesisSansTextGlobal-Regular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECA03396237B2353007E2973 /* FontTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA03399237B2353007E2973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA0339A237B2353007E2973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA0339C237B2353007E2973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECA0339D237B2353007E2973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECA0339F237B2357007E2973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA033A2237B2357007E2973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECA033A4237B2357007E2973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA033A5237B2357007E2973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA033A7237B2357007E2973 /* FontTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FontTest.entitlements; sourceTree = "<group>"; };
+		ECA033BC237B2EA4007E2973 /* HyundaiSansHeadKRRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HyundaiSansHeadKRRegular.ttf; sourceTree = "<group>"; };
+		ECA033BD237B2EA4007E2973 /* KIA_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KIA_Medium.ttf; sourceTree = "<group>"; };
+		ECA033BE237B2EA4007E2973 /* GenesisSansTextGlobal-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GenesisSansTextGlobal-Regular.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA03393237B2353007E2973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA0338D237B2353007E2973 = {
+			isa = PBXGroup;
+			children = (
+				ECA03398237B2353007E2973 /* FontTest */,
+				ECA03397237B2353007E2973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA03397237B2353007E2973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA03396237B2353007E2973 /* FontTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA03398237B2353007E2973 /* FontTest */ = {
+			isa = PBXGroup;
+			children = (
+				ECA033AD237B27CF007E2973 /* Fonts */,
+				ECA03399237B2353007E2973 /* AppDelegate.h */,
+				ECA0339A237B2353007E2973 /* AppDelegate.m */,
+				ECA0339C237B2353007E2973 /* ViewController.h */,
+				ECA0339D237B2353007E2973 /* ViewController.m */,
+				ECA0339F237B2357007E2973 /* Assets.xcassets */,
+				ECA033A1237B2357007E2973 /* Main.storyboard */,
+				ECA033A4237B2357007E2973 /* Info.plist */,
+				ECA033A5237B2357007E2973 /* main.m */,
+				ECA033A7237B2357007E2973 /* FontTest.entitlements */,
+			);
+			path = FontTest;
+			sourceTree = "<group>";
+		};
+		ECA033AD237B27CF007E2973 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ECA033BE237B2EA4007E2973 /* GenesisSansTextGlobal-Regular.otf */,
+				ECA033BC237B2EA4007E2973 /* HyundaiSansHeadKRRegular.ttf */,
+				ECA033BD237B2EA4007E2973 /* KIA_Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA03395237B2353007E2973 /* FontTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA033AA237B2357007E2973 /* Build configuration list for PBXNativeTarget "FontTest" */;
+			buildPhases = (
+				ECA03392237B2353007E2973 /* Sources */,
+				ECA03393237B2353007E2973 /* Frameworks */,
+				ECA03394237B2353007E2973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontTest;
+			productName = FontTest;
+			productReference = ECA03396237B2353007E2973 /* FontTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA0338E237B2353007E2973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = dykim;
+				TargetAttributes = {
+					ECA03395237B2353007E2973 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = ECA03391237B2353007E2973 /* Build configuration list for PBXProject "FontTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA0338D237B2353007E2973;
+			productRefGroup = ECA03397237B2353007E2973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA03395237B2353007E2973 /* FontTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA03394237B2353007E2973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA033A0237B2357007E2973 /* Assets.xcassets in Resources */,
+				ECA033BF237B2EA4007E2973 /* HyundaiSansHeadKRRegular.ttf in Resources */,
+				ECA033A3237B2357007E2973 /* Main.storyboard in Resources */,
+				ECA033C1237B2EA4007E2973 /* GenesisSansTextGlobal-Regular.otf in Resources */,
+				ECA033C0237B2EA4007E2973 /* KIA_Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA03392237B2353007E2973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA0339E237B2353007E2973 /* ViewController.m in Sources */,
+				ECA033A6237B2357007E2973 /* main.m in Sources */,
+				ECA0339B237B2353007E2973 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECA033A1237B2357007E2973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA033A2237B2357007E2973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA033A8237B2357007E2973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECA033A9237B2357007E2973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECA033AB237B2357007E2973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FontTest/FontTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8PG9C7Q5V8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FontTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.panicstyle.FontTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECA033AC237B2357007E2973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FontTest/FontTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8PG9C7Q5V8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FontTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.panicstyle.FontTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA03391237B2353007E2973 /* Build configuration list for PBXProject "FontTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA033A8237B2357007E2973 /* Debug */,
+				ECA033A9237B2357007E2973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA033AA237B2357007E2973 /* Build configuration list for PBXNativeTarget "FontTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA033AB237B2357007E2973 /* Debug */,
+				ECA033AC237B2357007E2973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA0338E237B2353007E2973 /* Project object */;
+}
